@@ -95,7 +95,7 @@ public class TicTacToeFrame extends JFrame implements ActionListener {
             return;
         }
 
-        // Check for tie (starting at move 7 - could be earlier if board filled)
+        // Check for tie (starting at move 7)
         if (moveCount >= 7 && isTie()) {
             statusLabel.setText("It's a tie!");
             disableBoard();
